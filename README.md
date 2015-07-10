@@ -17,7 +17,8 @@ MicroCulture is a card-based event game that embodies the behavior of our human 
 Microculture is a collaboration between Parsons School of Design and the MIT Media Lab: ([David Kong](https://www.linkedin.com/in/davidsunkong)), ([Colleen Macklin](http://www.colleenmacklin.com/)), ([Roula Gholmieh](http://www.roulagholmieh.com/)), ([Jane Mcdonough](http://www.janemcdonough.com/2014/home.html)) and myself. It was launched at the SXSW 2015 conference as part of the ([MIT Media Lab Lounge](http://directorsfellows.media.mit.edu/projects/microculture-a-sxsw-game-about-synthetic-biology-and-community-building/)) events.</p>
 
 
-[![ScreenShot](http://img.youtube.com/vi/Lx1MpeOUkfo/0.jpg)](https://www.youtube.com/watch?v=Lx1MpeOUkfo)
+[![Demo CountPages alpha](http://www.gifyoutube.com/gif/KRPdDq)](https://www.youtube.com/watch?v=Lx1MpeOUkfo)
+
 
 
 [![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?t=252&v=d44EvKsuR08)
