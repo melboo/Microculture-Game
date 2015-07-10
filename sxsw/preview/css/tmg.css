@@ -1,0 +1,390 @@
+/*********** foundation rules ***********/
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	/*text-align: top;*/
+	background-position: center -100px; 	/* -112px lines up exacto knife on content pages*/
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: top;	
+}
+
+img{
+    position: absolute;
+    max-width: 100%;
+    height: auto
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	font-family: Liberation Sans;
+	font-size: 10px;
+}
+
+fieldset.search {
+	margin: 0;
+	padding: 0;
+	border: 0;	
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	font-size: 1px;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/***************** typography ********************/
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+/***** running copy ****/
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #737378;
+	max-width: 680px;
+}
+
+p a {
+	color: #ec0080;
+	font-weight: 600;
+}
+
+p a:hover {
+	color: black;
+}
+
+.faq_copy {
+	font-size: .75em;
+}
+
+.copyright_text{
+	font-size: .50em;
+}
+
+/***** home page tag line ****/
+h1 {
+	padding-left: 220px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 2.0em;
+	color: #fff;
+}
+
+h1 a {
+	color: #ec0080;
+	font-weight: 400;
+}
+
+h1 a:hover {
+	color: black;
+}
+
+
+
+/***** page titles ****/
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	color: #ec0080;
+}
+
+h2 a {
+	color: #ec0080;
+	font-weight: 400;
+}
+
+h2 a:hover {
+	color: black;
+}
+
+
+h3 {
+	padding-top: 12px;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: .75em;
+	color: #737378;
+	max-width: 680px;
+}
+
+h4 {
+	padding-top: 4px;
+	padding-left: 24px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	line-height: .75em;
+	color: #737378;
+	max-width: 600px;
+}
+
+h5 {
+	padding-left: 36px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: .75em;
+	line-height: .25em;
+	color: #737378;
+	max-width: 600px;
+}
+
+/***** nav bar links ****/
+h6 {
+	padding-left: 24px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: .75em;
+	line-height: .25em;
+	text-transform: uppercase;
+	color: #737378;
+}
+
+h6 a {
+	color: #737378;
+	font-weight: 400;
+}
+
+h6 a:hover {
+	color: #ec0080;
+}
+
+
+
+
+
+/************** basic structure ****************/
+/**********************************************/
+
+
+#nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0;
+	padding: 18px 0 24px 24px;
+	width: 216px;
+	height: 100vh;
+	background-color: #fff;
+}
+
+#nav_links {
+	margin: 0;
+	padding-top: 6px;
+}
+
+#nav_social {
+	margin: 24px 0 0 6px;
+	padding: 0;
+}
+
+.social_link {
+	margin: 0
+	padding: 0;
+	width: 40px;
+	float: left;
+}
+
+#copyright {
+	padding-top: 12px;
+	margin: 24px 0 0 6px;
+}
+
+#home_bg {
+	margin: 0 0 0 240px;
+	padding: 96px 0 0 240px;
+	width: 100vw;
+	height: 100vh;
+	background-color: #fff;
+	background-image: url('../img/18.png');
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#content_pages {
+	position: fixed;
+	top: 0px;
+	left: 241px;
+	margin: 0;
+	padding: 36px 48px 0 24px;
+	width: 712px;
+	height: 100vh;
+	background-color: #fff;
+	overflow-y: auto;
+}
+
+#product_image {
+	float: left;
+	top: 0px;
+	width: 40%;
+	background-color: #fff;
+}
+#product_image_text {
+	float: left;
+	top: 30px;
+	width: 60%;
+	background-color: #fff;
+}
+
+.spacer {
+	padding-top: 24px;
+}
+
+
+/************** Background image cycler ****************/
+/**********************************************/
+#outer_wrap{width:80%;margin:50px auto;}
+#wrap{width:550px;height:250px;position:relative;z-index:1;padding:100px 20px}
+#wrap_background{position:absolute;top:0;left:0;width:590px;height:450px;background-color:#fff;z-index:-1;opacity:0.6;filter: alpha(opacity = 60);border-radius:10px;-moz-border-radius:10px}
+
+#background_cycler{padding:0;margin:0;width:100%;position:absolute;top:0;left:0;z-index:-1}
+#background_cycler img{position:absolute;left:0;top:0;width:100%;z-index:1}
+#background_cycler img.active{z-index:3}
+
+body {
+  margin: 0;
+  background: #fff; 
+}
+
+/************** Full screen Video ****************/
+/**********************************************/
+video { 
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+ background: url('//www.metaga.me/preview/img/cards/cards.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+/* -----------------------------------------
+	rotating image for homepage
+----------------------------------------- */
+
+#home_bg2 {
+	margin: 0 0 0 240px;
+	padding: 72px 0 0 120px;
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../img/18.png');
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#rotating-item-wrapper1 {
+	position: relative;
+	left: 0px;	
+	width: 250px;
+	height: 350px;
+}
+
+.rotating-item1 {
+	display: none;
+	position: absolute;
+	left: 0px;	
+	top: 0px;
+
+}
+
+#rotating-item-wrapper2 {
+	position: relative;
+	width: 250px;
+	height: 350px;
+	left: 0px;	
+	top: 0px;
+}
+
+.rotating-item2 {
+	display: none;
+	position: absolute;
+	left: 0px;	
+	top: 0px;
+}
+
+#rotating-item-wrapper3 {
+	position: relative;
+	width: 250px;
+	height: 350px;
+	left: 0px;	
+	top: 0px;
+}
+
+.rotating-item3 {
+	display: none;
+	position: absolute;
+	left: 0px;	
+	top: 0px;
+}
+
+/* -----------------------------------------
+	rotating text for quotes
+----------------------------------------- */
+
+#slideshow { 
+    margin: 0px auto; 
+    position: relative; 
+  height: 80px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+}
+

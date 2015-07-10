@@ -1,0 +1,250 @@
+/*********** foundation rules ***********/
+
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	/*text-align: top;*/
+}
+
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	vertical-align: top;	
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+	font-size: 1px;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/***************** typography ********************/
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+/***** running copy ****/
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #737378;
+}
+
+p a {
+	color: #ec0080;
+	font-weight: 600;
+}
+
+p a:hover {
+	color: black;
+}
+
+.faq_copy {
+	font-size: .75em;
+}
+
+/***** home page tag line ****/
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	line-height: 2.25em;
+	color: #737378;
+}
+
+h1 a {
+	color: #ec0080;
+	font-weight: 400;
+}
+
+h1 a:hover {
+	color: black;
+}
+
+
+
+/***** page titles ****/
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	color: #737378;
+	padding: 40px 0 0 0;
+}
+
+h2 a {
+	color: #ec0080;
+	font-weight: 400;
+}
+
+h2 a:hover {
+	color: black;
+}
+
+
+h3 {
+	padding-top: 12px;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 1em;
+	color: #737378;
+}
+
+h4 {
+	padding-top: 12px;
+	padding-left: 24px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 1.25em;
+	line-height: .75em;
+	color: #737378;
+}
+
+h5 {
+	padding-left: 36px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: .75em;
+	line-height: .25em;
+	color: #737378;
+}
+
+
+
+
+/************** mobile structure ****************/
+/**********************************************/
+
+
+#mobile_social {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 2px 0 10px 30px;
+	width: 100%;
+	background-color: #d41673;
+}
+
+.social_link_twitter {
+	position: absolute;
+	top: 0;
+	left: 30%;
+	padding-bottom: 8px;
+}
+
+.social_link_instagram {
+	position: absolute;
+	top: 0;
+	left: 45%;
+	padding-bottom: 8px;
+}
+
+.social_link_facebook {
+	position: absolute;
+	top: 0;
+	left: 60%;
+	padding-bottom: 8px;
+}
+
+.social_link_pinterest {
+	position: absolute;
+	top: 0;
+	left: 80%;
+	padding-bottom: 8px;
+}
+
+#mobile_content {
+	margin: 0;
+	padding: 0 20px 30px 20px;
+	width: 80%;
+	height: 100%;
+	background-color: #fff;
+	overflow: scroll;
+}
+
+.spacer {
+	padding-top: 30px;
+}
+
+/*-----------HAMBURGER MENU-------------*/
+
+.menu-btn div {
+	position: absolute;
+	top: 2%;
+	left: 5%;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 400;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.menu-btn span {
+	display: block;
+	width: 6%;
+	height: 1%;
+	margin: 4px 0;
+	background: #ffffff;
+	z-index: 99;
+}
+
+.responsive-menu {
+	display: none;
+	padding-top: 12px;
+}
+
+.responsive-menu ul li a:hover, .responsive-menu ul li a {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.expand {
+	display: block !important; 
+}
+/*-----------HAMBURGER MENU-------------*/
+
+
+/* -----------------------------------------
+	rotating text for quotes
+
+
+#slideshow { 
+    margin: 0px auto; 
+    position: relative; 
+  height: 80px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+}
+----------------------------------------- */

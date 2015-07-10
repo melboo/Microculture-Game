@@ -1,0 +1,143 @@
+
+body, html {
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+#info {
+	
+}
+
+h1{
+	margin: 0;
+	font-size: 85px;
+	padding:0;
+}
+
+h2 {
+	font-size: 25px;
+	padding:0;
+	margin:0;
+	margin-bottom: 30px;
+}
+
+.info {
+	margin-left: 150px;
+	margin-top: 150px;
+}
+
+/*** ***/
+
+.content {
+	width: 400px;
+	overflow: auto;
+	margin-top: 80px
+}
+
+.content .fTitleSkin {
+	color: #762e60;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.content .subTitle {
+	margin-left: 10px;
+}
+
+.flora .left {
+	width: 90%;
+	float: left;
+}
+
+.flora .right {
+	width: 10%;
+	float: right;
+	margin-top: 15px;
+	font-size: 25px;
+}
+
+.info .skin {
+	background-color: #762e60;
+	height: 35px;
+}
+
+.info .skinLine {
+	background-color: #762e60;
+	height: 5px;
+	margin-top: 2px;
+}
+
+#skin {
+	color: #762e60;
+}
+
+.info .mouth {
+	background-color: #009568;
+	height: 35px;
+}
+
+.info .mouthLine {
+	background-color: #009568;
+	height: 5px;
+	margin-top: 2px;
+}
+
+.content .fTitleMouth {
+	color: #009568;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#mouth {
+	color: #009568;
+}
+
+
+.info .gut {
+	background-color: #f3c800;
+	height: 35px;
+}
+
+.info .gutLine {
+	background-color: #f3c800;
+	height: 5px;
+	margin-top: 2px;
+}
+
+.content .fTitleGut {
+	color: #f3c800;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
+.flora {
+	margin-bottom: 20px;
+	overflow: auto;
+}
+
+#gut {
+	color: #f3c800;
+}
+
+
+.info .air {
+	background-color: #005b87;
+	height: 35px;
+}
+
+.info .airLine {
+	background-color: #005b87;
+	height: 5px;
+	margin-top: 2px;
+}
+
+#air {
+	color: #005b87;
+}
+
+.content .fTitleAir {
+	color: #005b87;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
